@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link {
+    @apply cursor-pointer hover:underline;
+  }
+
+  .btn {
+    @apply mt-3 p-2 text-sm md:text-base bg-gradient-to-b from-yellow-200 to-yellow-400 border border-yellow-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500 active:from-yellow-500 transition;
+  }
+}

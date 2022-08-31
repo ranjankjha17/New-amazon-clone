@@ -1,0 +1,59 @@
+{
+  "name": "amazon-clone",
+  "description": "Amazon clone built using Next JS, Redux, Tailwind CSS, Firebase, FakeStore API & NextAuth",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Rajdeep Ghosh <rajdeepghosh810@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajdeep-ghosh/amazon-clone/"
+  },
+  "keywords": [
+    "nextjs",
+    "reactjs",
+    "tailwind-css",
+    "firebase",
+    "redux",
+    "fakestore-api",
+    "next-auth",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.4",
+    "@reduxjs/toolkit": "^1.6.2",
+    "next": "12.1.0",
+    "next-auth": "^3.29.10",
+    "react": "17.0.2",
+    "react-currency-formatter": "^1.1.0",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.6",
+    "react-responsive-carousel": "^3.2.21"
+  },
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.2.2",
+    "autoprefixer": "^10.3.7",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
