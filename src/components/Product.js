@@ -44,7 +44,9 @@ function Product({ id, title, desc, category, price, rating, img }) {
         </div>
       </div>
       
-      <div className={`flex items-center space-x-2 ${hasPrime ? `visible` : `invisible`}`}>
+      {/* <div className={`flex items-center space-x-2 ${hasPrime ? `visible` : `invisible`}`}> */}
+
+      <div className={`flex items-center space-x-2`}>
         <Image src="https://bit.ly/3prP2qx" width={48} height={48} alt="prime" />
         <p className="text-xs text-gray-500">FREE Next-day Delivery</p>
       </div>

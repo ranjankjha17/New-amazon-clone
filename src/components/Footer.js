@@ -63,7 +63,7 @@ function Footer() {
             rel="noreferrer"
             className="text-yellow-400 hover:underline"
           >
-            Rajdeep Ghosh
+            Ranjan
           </a>
         </span>
       </div>
